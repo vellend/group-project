@@ -8,6 +8,7 @@ body {
 	height: 100vh;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr; 
+	@media only screen and (max-width: 166px)
 }
 
 
@@ -34,6 +35,11 @@ img{
 	width: 10vw;
 	height: 25vh;
 	border-radius: 10px;
+	overflow-y: scroll;
+	margin-left: auto;
+	margin-right: auto;
+    width:180px;
+
 }
 
 #time{
@@ -74,3 +80,6 @@ margin: 0px;
 grid-column: 1/9;
 	grid-row: 9/9;
 	}
+#Sat{
+	margin: 0px;
+}
