@@ -29,7 +29,7 @@ img{
 	position: absolute;
 	top: 51%;
 	left: 49%;
-	transform: translate(-40%, -45%);
+	transform: translate(-46%, -45%);
 	background-color: black;
 	height: 25vh;
 	border-radius: 10px;
@@ -47,6 +47,7 @@ img{
 	color: white;
 	grid-column: 9/9;
 	grid-row: 1/9;
+	padding-right: 10px;
 	}
 
 	#navigation{
@@ -60,7 +61,6 @@ img{
 	#game1{
 		grid-column: 1/9;
 	grid-row: 2 / span 2;
-	background-color: #393C42;
 	padding: 1vh 0.4vw;
 	border-radius: 20px;
 	width: 120%;
@@ -87,6 +87,8 @@ grid-column: 1/9;
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 1vh;
+	background-color: #393C42;
+	border-radius: 10px;
 }
 
 .right {
@@ -116,9 +118,9 @@ margin-top: 1vh;
 }
 
 .left div:nth-of-type(1){
-color: orange;
+color: yellow;
 }
 
 .left div:nth-of-type(2){
-color: yellow;
+color: white;
 }
