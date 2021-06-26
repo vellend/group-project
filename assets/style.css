@@ -27,18 +27,17 @@ img{
 	color: white;
 	z-index: 2;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 51%;
+	left: 49%;
 	transform: translate(-40%, -45%);
 	background-color: black;
-	width: 12vw;
 	height: 25vh;
 	border-radius: 10px;
-	overflow: hidden;
 	overflow-y: scroll;
 	margin-left: auto;
 	margin-right: auto;
     width:180px;
+    grid-gap: 1em;
 
 }
 
@@ -61,25 +60,65 @@ img{
 	#game1{
 		grid-column: 1/9;
 	grid-row: 2 / span 2;
+	background-color: #393C42;
+	padding: 1vh 0.4vw;
+	border-radius: 20px;
+	width: 120%;
 }
-	#Today{
-margin: 0px;
-/*padding-top: 10px;*/
+	#Today, #Fri, #Sat{
+/*margin-top: 10px;*/
+/*background-color: #393C42;*/
+padding-top: 10px;
 /*padding-left: 10px;*/
 	}
 
 	#game2{
 grid-column: 1/9;
-	grid-row: 8/9;
+	grid-row: 4/6;
 	}
-	#Fri{
-margin: 0px;
-}
+	
 
 #game3{
 grid-column: 1/9;
-	grid-row: 9/9;
+	grid-row: 6/9;
 	}
-#Sat{
-	margin: 0px;
+
+.friday {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 1vh;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	/*margin-top: 20px;*/
+}
+
+small {
+	margin-top: .75vh;
+}
+
+.icon {
+	max-width: 15px;
+	height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.left:nth-of-type(1){
+margin-top: 1vh;
+/*background-color: blue;*/
+}
+
+.left div:nth-of-type(1){
+color: orange;
+}
+
+.left div:nth-of-type(2){
+color: yellow;
 }
