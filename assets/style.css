@@ -8,7 +8,6 @@ body {
 	height: 100vh;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr; 
-	@media only screen and (max-width: 166px)
 }
 
 
