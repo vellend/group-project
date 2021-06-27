@@ -42,9 +42,9 @@ img{
 }
 
 .button{
-	background-color: darkblue;
+	background-color:white;
     border: none;
-    color: white;
+    color: #000000;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -52,6 +52,7 @@ img{
     font-size: 14px;
     margin: 4px 2px;
     border-radius: 50px;
+    order: 1;
 }
 #time{
 	justify-self: center;
